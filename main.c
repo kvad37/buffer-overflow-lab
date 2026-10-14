@@ -9,7 +9,7 @@ int main()
     int check = 0x04030201;
     char buf[40];
 
-    fgets(buf, sizeof(buf), stdin);
+    fgets(buf, 45, stdin);
 
     printf("\n[buf]: %s\n", buf);
     printf("[check] %p\n", check);
